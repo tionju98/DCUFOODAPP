@@ -66,7 +66,7 @@
             android:layout_height="wrap_content"
             android:gravity="center_horizontal"
             android:text="+ 더 담으러 가기"
-            android:textSize="20pt"
+            android:textSize="18pt"
             android:background="none"
             android:textColor="#357CD7"/>
 
@@ -116,7 +116,7 @@
             android:layout_width="800px"
             android:layout_height="wrap_content"
             android:text="주문하기"
-            android:textSize="25pt"
+            android:textSize="20pt"
             android:textColor="#FFFFFF"
             android:background="#357CD7"
             android:gravity="center_horizontal"/>

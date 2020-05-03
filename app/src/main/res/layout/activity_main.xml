@@ -20,12 +20,13 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
-        tools:ignore="MissingConstraints">
+        android:layout_margin="10dp">
         <!--밥류-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_margin="5dp">
         <!--제목-->
         <TextView
             android:paddingTop="20dp"
@@ -43,7 +44,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
             <!--음식1-->
             <LinearLayout
                 android:paddingRight="20dp"
@@ -51,7 +53,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp">
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
@@ -85,7 +88,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp">
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
@@ -118,7 +122,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp">
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
@@ -152,7 +157,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:orientation="vertical"
+        android:layout_margin="5dp">
 
         <!--제목-->
         <TextView
@@ -171,7 +177,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal">
+            android:orientation="horizontal"
+            android:layout_margin="5dp">
             <!--음식1-->
             <LinearLayout
                 android:paddingRight="20dp"
@@ -179,7 +186,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp">
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
@@ -212,7 +220,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp">
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
@@ -245,7 +254,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:orientation="vertical"
-                android:gravity="center_horizontal">
+                android:gravity="center_horizontal"
+                android:layout_margin="5dp">
                 <ImageView
                     android:layout_width="200px"
                     android:layout_height="200px"
@@ -280,7 +290,8 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:layout_margin="5dp">
 
             <!--제목-->
             <TextView
@@ -307,7 +318,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:gravity="center_horizontal">
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp">
                     <ImageView
                         android:layout_width="200px"
                         android:layout_height="200px"
@@ -340,7 +352,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:gravity="center_horizontal">
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp">
                     <ImageView
                         android:layout_width="200px"
                         android:layout_height="200px"
@@ -373,7 +386,8 @@
                     android:layout_width="wrap_content"
                     android:layout_height="match_parent"
                     android:orientation="vertical"
-                    android:gravity="center_horizontal">
+                    android:gravity="center_horizontal"
+                    android:layout_margin="5dp">
                     <ImageView
                         android:layout_width="200px"
                         android:layout_height="200px"
