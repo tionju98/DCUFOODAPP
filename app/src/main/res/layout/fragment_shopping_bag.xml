@@ -24,26 +24,27 @@
     <!--내용-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="1000px"
+        android:layout_height="wrap_content"
         android:orientation="horizontal"
-        android:paddingTop="10dp"
-        android:paddingBottom="20dp">
+        android:layout_margin="10dp">
         <TextView
-            android:layout_width="350px"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="잡곡밥"
             android:textSize="12pt"
-            android:gravity="left"
-            android:paddingLeft="10pt"/>
+            android:gravity="left"/>
         <TextView
-            android:layout_width="350px"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="500원"
             android:textSize="8pt"
             android:gravity="center_horizontal"/>
         <Button
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_weight="1"
             android:text="삭제"
             android:textSize="10pt"
             android:textColor="#357CD7"
@@ -71,7 +72,7 @@
             android:textColor="#357CD7"/>
 
     </LinearLayout>
-<!--총 주문 금액-->
+    <!--총 주문 금액-->
     <View
         android:layout_width="match_parent"
         android:layout_height="2px"
@@ -82,7 +83,8 @@
         android:paddingTop="10dp"
         android:paddingBottom="20dp">
         <TextView
-            android:layout_width="540px"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="주문 금액"
             android:textSize="12pt"
@@ -91,7 +93,8 @@
             android:paddingLeft="10pt"
             />
         <TextView
-            android:layout_width="540px"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
             android:text="500원"
             android:textSize="12pt"
@@ -110,16 +113,19 @@
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:gravity="center"
-        android:paddingBottom="10dp"
-        android:paddingTop="20dp">
+        android:layout_margin="10dp">
+
         <Button
-            android:layout_width="800px"
+            android:layout_width="wrap_content"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:layout_weight="1"
             android:layout_height="wrap_content"
-            android:text="주문하기"
-            android:textSize="20pt"
-            android:textColor="#FFFFFF"
             android:background="#357CD7"
-            android:gravity="center_horizontal"/>
+            android:gravity="center_horizontal"
+            android:text="주문하기"
+            android:textColor="#FFFFFF"
+            android:textSize="20pt" />
     </LinearLayout>
 
 </LinearLayout>

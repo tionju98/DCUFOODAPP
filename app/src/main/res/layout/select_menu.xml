@@ -5,6 +5,7 @@
     android:layout_height="match_parent">
 
     <LinearLayout
+        android:id="@+id/select_menu"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
         <ImageView
@@ -20,8 +21,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:paddingBottom="20dp"
-        android:paddingTop="10dp">
+
+        android:layout_margin="10dp">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -37,22 +38,24 @@
         android:background="#000000"/>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="1020px"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
         android:orientation="vertical">
         <LinearLayout
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal"
-            android:paddingTop="10dp"
-            android:paddingBottom="10dp">
+            >
             <TextView
-                android:layout_width="540px"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:text="가격"
                 android:textSize="12pt"
                 android:gravity="left"/>
             <TextView
-                android:layout_width="540px"
+                android:layout_width="wrap_content"
+                android:layout_weight="1"
                 android:layout_height="match_parent"
                 android:text="500원"
                 android:textSize="12pt"
@@ -67,15 +70,17 @@
             android:paddingBottom="10dp">
 
             <TextView
-                android:layout_width="540px"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
+                android:layout_weight="1"
                 android:text="옵션"
                 android:textSize="12pt"
                 android:gravity="left"/>
             <TextView
-                android:layout_width="540px"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="A"
+                android:layout_weight="1"
                 android:textSize="12pt"
                 android:gravity="right"/>
 
@@ -88,15 +93,17 @@
             android:paddingBottom="10dp">
 
             <TextView
-                android:layout_width="540px"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="수량"
+                android:layout_weight="1"
                 android:textSize="12pt"
                 android:gravity="left"/>
             <TextView
-                android:layout_width="540px"
+                android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:text="1개"
+                android:layout_weight="1"
                 android:textSize="12pt"
                 android:gravity="right"/>
 
@@ -112,15 +119,19 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:paddingTop="10dp"
-        android:paddingBottom="10dp">
+        android:paddingBottom="10dp"
+        android:layout_margin="10dp">
         <TextView
-            android:layout_width="540px"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="match_parent"
             android:text="총 주문금액"
+            android:gravity="left"
             android:textSize="15pt"/>
 
         <TextView
-            android:layout_width="540px"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="match_parent"
             android:gravity="right"
             android:text="500원"
@@ -135,16 +146,19 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
         <Button
-        android:layout_width="540px"
+        android:layout_width="wrap_content"
+            android:layout_weight="1"
         android:layout_height="match_parent"
         android:text="장바구니"
         android:background="#FFFFFF"
         android:textColor="#357CD7"
         android:textSize="100px"/>
         <Button
-            android:layout_width="540px"
+            android:layout_width="wrap_content"
+            android:layout_weight="1"
             android:layout_height="match_parent"
             android:text="주문하기"
             android:background="#357CD7"

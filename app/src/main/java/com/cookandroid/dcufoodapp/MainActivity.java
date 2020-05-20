@@ -1,6 +1,8 @@
 package com.cookandroid.dcufoodapp;
 
 import android.os.Bundle;
+import android.view.View;
+import android.widget.LinearLayout;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
@@ -13,7 +15,7 @@ import androidx.navigation.ui.NavigationUI;
 public class MainActivity extends AppCompatActivity {
 
     @Override
-    protected void onCreate(Bundle savedInstanceState) {
+    public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         BottomNavigationView navView = findViewById(R.id.nav_view);
@@ -25,6 +27,20 @@ public class MainActivity extends AppCompatActivity {
         NavController navController = Navigation.findNavController(this, R.id.nav_host_fragment);
         NavigationUI.setupActionBarWithNavController(this, navController, appBarConfiguration);
         NavigationUI.setupWithNavController(navView, navController);
+
+     //  final LinearLayout rice1, select_menu;
+
+     //  rice1=(LinearLayout) findViewById(R.id.rice1);
+     //  select_menu=(LinearLayout)findViewById(R.id.select_menu);
+
+     //  rice1.setOnClickListener(new View.OnClickListener(){
+     //      public void onClick(View v){
+     //          rice1.select_menu.xml show();
+     //      }
+     //  });
+
     }
+
+
 
 }

@@ -7,7 +7,6 @@ import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import com.cookandroid.dcufoodapp.R;
 import com.cookandroid.dcufoodapp.ui.cancle_popup_Activity;
 
 public class payment_history_Activity extends AppCompatActivity {
@@ -18,7 +17,7 @@ public class payment_history_Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.payment_history);
+        setContentView(R.layout.payment_history_withcancle);
 
         txtResult = (TextView)findViewById(R.id.txtText);
     }

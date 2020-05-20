@@ -8,419 +8,284 @@
     android:layout_height="match_parent"
     android:paddingTop="?attr/actionBarSize">
 
-
-    <!--메뉴-->
-    <ScrollView
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         tools:ignore="MissingConstraints">
 
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="10dp">
-        <!--밥류-->
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
-            android:layout_margin="5dp">
-        <!--제목-->
-        <TextView
-            android:paddingTop="20dp"
-            android:paddingBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="밥류"
-            android:textSize="30dp"/>
-        <!--선-->
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2px"
-            android:background="#000000"/>
-        <!--음식-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="5dp">
-            <!--음식1-->
-            <LinearLayout
-                android:paddingRight="20dp"
-                android:paddingLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_margin="5dp">
-                <ImageView
-                    android:layout_width="200px"
-                    android:layout_height="200px"
-                    android:src="@drawable/food1"
-                   />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="잡곡밥"
-                    android:gravity="center_horizontal"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="500원"/>
-
-
-            </LinearLayout>
-            <!--음식2-->
-            <LinearLayout
-                android:paddingRight="20dp"
-                android:paddingLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_margin="5dp">
-                <ImageView
-                    android:layout_width="200px"
-                    android:layout_height="200px"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="A"
-                    android:gravity="center_horizontal"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="500원"/>
-
-
-            </LinearLayout>
-            <!--음식3-->
-            <LinearLayout
-                android:paddingRight="20dp"
-                android:paddingLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_margin="5dp">
-                <ImageView
-                    android:layout_width="200px"
-                    android:layout_height="200px"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="A"
-                    android:gravity="center_horizontal"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="500원"/>
-
-
-            </LinearLayout>
-        </LinearLayout>
-        </LinearLayout>
-
-
-    <!--볶음밥류-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_margin="5dp">
-
-        <!--제목-->
-        <TextView
-            android:paddingTop="20dp"
-            android:paddingBottom="10dp"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="볶음밥류"
-            android:textSize="30dp"/>
-        <!--선-->
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="2px"
-            android:background="#000000"/>
-        <!--음식-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:layout_margin="5dp">
-            <!--음식1-->
-            <LinearLayout
-                android:paddingRight="20dp"
-                android:paddingLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_margin="5dp">
-                <ImageView
-                    android:layout_width="200px"
-                    android:layout_height="200px"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="A"
-                    android:gravity="center_horizontal"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="500원"/>
-
-
-            </LinearLayout>
-            <!--음식2-->
-            <LinearLayout
-                android:paddingRight="20dp"
-                android:paddingLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_margin="5dp">
-                <ImageView
-                    android:layout_width="200px"
-                    android:layout_height="200px"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="A"
-                    android:gravity="center_horizontal"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="500원"/>
-
-
-            </LinearLayout>
-            <!--음식3-->
-            <LinearLayout
-                android:paddingRight="20dp"
-                android:paddingLeft="10dp"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:orientation="vertical"
-                android:gravity="center_horizontal"
-                android:layout_margin="5dp">
-                <ImageView
-                    android:layout_width="200px"
-                    android:layout_height="200px"
-                    />
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:text="A"
-                    android:gravity="center_horizontal"/>
-                <View
-                    android:layout_width="match_parent"
-                    android:layout_height="2px"
-                    android:background="#000000"/>
-                <TextView
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:text="500원"/>
-
-
-            </LinearLayout>
-        </LinearLayout>
-        </LinearLayout>
-
-
-
-        <!--면류-->
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:orientation="vertical"
-            android:layout_margin="5dp">
-
-            <!--제목-->
-            <TextView
-                android:paddingTop="20dp"
-                android:paddingBottom="10dp"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="면류"
-                android:textSize="30dp"/>
-            <!--선-->
-            <View
-                android:layout_width="match_parent"
-                android:layout_height="2px"
-                android:background="#000000"/>
-            <!--음식-->
+            android:layout_margin="10dp">
+            <!--밥류-->
             <LinearLayout
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:orientation="horizontal">
-                <!--음식1-->
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+                <!--제목-->
+                <TextView
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="밥류"
+                    android:textSize="30dp"/>
+                <!--선-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#000000"/>
+                <!--음식-->
                 <LinearLayout
-                    android:paddingRight="20dp"
-                    android:paddingLeft="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
                     android:layout_margin="5dp">
-                    <ImageView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        />
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2px"
-                        android:background="#000000"/>
-                    <TextView
+                    <!--음식1-->
+                    <LinearLayout
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="A"
-                        android:gravity="center_horizontal"/>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2px"
-                        android:background="#000000"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
                         android:gravity="center_horizontal"
-                        android:text="500원"/>
+                        android:layout_margin="5dp"
+                        android:id="@+id/rice1">
+                        <ImageView
+                            android:layout_width="200px"
+                            android:layout_height="200px"
+                            android:src="@drawable/food1"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="잡곡밥"
+                            android:gravity="center_horizontal"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="500원"/>
 
 
-                </LinearLayout>
-                <!--음식2-->
-                <LinearLayout
-                    android:paddingRight="20dp"
-                    android:paddingLeft="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal"
-                    android:layout_margin="5dp">
-                    <ImageView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        />
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2px"
-                        android:background="#000000"/>
-                    <TextView
+                    </LinearLayout>
+                    <!--음식2-->
+                    <LinearLayout
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="A"
-                        android:gravity="center_horizontal"/>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2px"
-                        android:background="#000000"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
                         android:gravity="center_horizontal"
-                        android:text="500원"/>
+                        android:layout_margin="5dp">
+                        <ImageView
+                            android:layout_width="200px"
+                            android:layout_height="200px"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="A"
+                            android:gravity="center_horizontal"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="500원"/>
 
 
-                </LinearLayout>
-                <!--음식3-->
-                <LinearLayout
-                    android:paddingRight="20dp"
-                    android:paddingLeft="10dp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="match_parent"
-                    android:orientation="vertical"
-                    android:gravity="center_horizontal"
-                    android:layout_margin="5dp">
-                    <ImageView
-                        android:layout_width="200px"
-                        android:layout_height="200px"
-                        />
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2px"
-                        android:background="#000000"/>
-                    <TextView
+                    </LinearLayout>
+                    <!--음식3-->
+                    <LinearLayout
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:text="A"
-                        android:gravity="center_horizontal"/>
-                    <View
-                        android:layout_width="match_parent"
-                        android:layout_height="2px"
-                        android:background="#000000"/>
-                    <TextView
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
                         android:gravity="center_horizontal"
-                        android:text="500원"/>
+                        android:layout_margin="5dp">
+                        <ImageView
+                            android:layout_width="200px"
+                            android:layout_height="200px"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="A"
+                            android:gravity="center_horizontal"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="500원"/>
 
 
+                    </LinearLayout>
                 </LinearLayout>
             </LinearLayout>
+
+
+            <!--볶음밥류-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="5dp">
+
+                <!--제목-->
+                <TextView
+                    android:paddingTop="20dp"
+                    android:paddingBottom="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="볶음밥류"
+                    android:textSize="30dp"/>
+                <!--선-->
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#000000"/>
+                <!--음식-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:layout_margin="5dp">
+                    <!--음식1-->
+                    <LinearLayout
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp">
+                        <ImageView
+                            android:layout_width="200px"
+                            android:layout_height="200px"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="A"
+                            android:gravity="center_horizontal"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="500원"/>
+
+
+                    </LinearLayout>
+                    <!--음식2-->
+                    <LinearLayout
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp">
+
+                        <ImageView
+                            android:layout_width="200px"
+                            android:layout_height="200px" />
+
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="A"
+                            android:gravity="center_horizontal"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="500원"/>
+
+
+                    </LinearLayout>
+                    <!--음식3-->
+                    <LinearLayout
+                        android:paddingRight="20dp"
+                        android:paddingLeft="20dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical"
+                        android:gravity="center_horizontal"
+                        android:layout_margin="5dp">
+                        <ImageView
+                            android:layout_width="200px"
+                            android:layout_height="200px"
+                            />
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="A"
+                            android:gravity="center_horizontal"/>
+                        <View
+                            android:layout_width="match_parent"
+                            android:layout_height="2px"
+                            android:background="#000000"/>
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_horizontal"
+                            android:text="500원"/>
+
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+
         </LinearLayout>
-
-
     </LinearLayout>
-    </ScrollView>
-
-
 
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
